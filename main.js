@@ -2,7 +2,8 @@
 function start(){
   WebARRocksFaceDebugHelper.init({
     spec: {
-      GPUThermalThrottlingDetectionEnabled: true
+      GPUThermalThrottlingDetectionEnabled: true,
+	  NNCPath: './src/neuralNets/',
     }, // keep default specs
     callbackReady: function(err, spec){
 
